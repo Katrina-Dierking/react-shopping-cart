@@ -137,22 +137,22 @@ const { products, addItem } = useContext(ProductContext);
 
 - Our cart data is now being provided to us from our `CartContext` time to consume it!
 
-- First, let's head to our `ShoppingCart` component and import the `useContext` hook and our `CartContext`.
+- ✔ First, let's head to our `ShoppingCart` component and import the `useContext` hook and our `CartContext`.
 
-- Now in the component, pass `CartContext` to the `useContext` hook and assign it to a variable named cart.
+- ✔ Now in the component, pass `CartContext` to the `useContext` hook and assign it to a variable named cart.
 
 - Inside of our component we now need to remove all instances of props.
 
-  - Remove the `props` parameter
-  - Remove the `props` portion in our `getCartTotal` function
-  - Remove `props` when we're mapping over our cart
+  - ✔ Remove the `props` parameter
+  - ✔ Remove the `props` portion in our `getCartTotal` function
+  - ✔ Remove `props` when we're mapping over our cart
 
 - Time to do the same thing for our `Navigation` component.
-  - First import the `useContext` hook and our `CartContext`
-  - Next, pass our `CartContext` to the `useContext` hook and assign it to a variable named cart.
+  - ✔ First import the `useContext` hook and our `CartContext`
+  - ✔ Next, pass our `CartContext` to the `useContext` hook and assign it to a variable named cart.
   - Lastly we need to remove all instances of `props`
-    - Remove `props` from our parameters
-    - Remove `props` from our cart length
+  - ✔ Remove `props` from our parameters
+  - ✔ Remove `props` from our cart length
 
 We have now successfully converted our application into using `Context API` 🔥
 
